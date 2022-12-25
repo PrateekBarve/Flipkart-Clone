@@ -1,0 +1,47 @@
+.offers{
+    width: 100%;
+    position: relative;
+    //margin-bottom: 310px;
+    overflow: hidden;
+
+    .wrapper{
+        position: relative;
+        height: 310px;
+        background-color: #EFF5F5;
+        
+
+        .sliderArrow{
+            width: 50px;
+            height: 45%;
+            background-color: rgba(22, 22, 22, 0.5);
+            color: white;
+            position: absolute;
+            z-index: 99;
+            top: 0;
+            bottom: 0;
+            margin-top: 67px;
+           
+            cursor: pointer;
+
+            &.left{
+                left: 0;
+                margin-left: 8px;
+            }
+            &.right{
+                right: 0;
+                margin-right: 7px;
+            }
+        }
+
+        .container{
+            
+            margin-top: 20px;
+            margin-left: 8px;
+            display: flex;
+            height: 280px;
+            width: max-content;
+            transform: translateX(0px);
+            transition: all 0.5s ease;
+        }
+    }
+}

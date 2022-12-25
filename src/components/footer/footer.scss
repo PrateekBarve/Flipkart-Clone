@@ -1,0 +1,130 @@
+.footer{
+    position: relative;
+    width: 100%;
+    height: 347px;
+    background-color: #001532;
+    //margin-top: 310px;
+    flex: column;
+    
+
+    .top{
+        position: relative;
+        height: 275px;
+        width: 100%;
+
+        .card1{
+            float: left;
+            width: 180px;
+            height: 250px;
+            margin-left: 50px;
+            padding-top: 20px;
+
+            .head{
+                color: gray;
+                font-size: 12px;
+                font-weight: lighter;
+            }
+            p{
+                color: white;
+                font-size: 11px;
+                margin-top: 13px;
+            }
+        }
+        .card{
+            float: left;
+            width: 180px;
+            height: 250px;
+            margin-left: 10px;
+            padding-top: 20px;
+
+            .head{
+                color: gray;
+                font-size: 12px;
+                font-weight: lighter;
+            }
+            p{
+                color: white;
+                font-size: 11px;
+                margin-top: 13px;
+            }
+        }
+        .vertical{
+            float: left;
+            width: 2px;
+            border-left: 1px solid gray;
+            height: 150px;
+            position: absolute;
+            margin-left: 200px;
+            margin-top: 50px;
+            left: 50%;
+        }
+
+        .a{
+            float: left;
+            height: 250px;
+            width: 230px;
+            margin-left: 190px;
+
+            .head{
+                margin-top: 70px;
+                color: gray;
+                font-size: 12px;
+                font-weight: lighter;
+                margin-bottom: 10px;
+            }
+            p{
+                color: white;
+                font-size: 11px;
+            }
+        }
+        .b{
+            float: left;
+            height: 250px;
+            width: 200px;
+            margin-left: 35px;
+
+            .head{
+                margin-top: 70px;
+                color: gray;
+                font-size: 12px;
+                font-weight: lighter;
+                margin-bottom: 10px;
+            }
+            p{
+                color: white;
+                font-size: 11px;
+            }
+        }
+    }
+
+    .bottom{
+        position: relative;
+
+        .foot-text{
+            float: left;
+            margin-left: 80px;
+            font-size: 14px;
+            color: white;
+            margin-top: 25px;
+
+            .icon{
+                vertical-align: middle;
+                margin-right: 5px;
+                font-size: 20px;
+                color: #ffde00;
+            }
+        }
+        .copyright{
+            float: left;
+            margin-left: 50px;
+            font-size: 14px;
+            color: white;
+            margin-top: 25px;
+            margin-right: 40px;
+        }
+        img{
+            margin-top: 25px;
+            margin-left: 70px;
+        }
+    }
+}

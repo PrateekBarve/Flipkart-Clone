@@ -1,0 +1,27 @@
+.categories{
+    position: relative;
+    height: 190px;
+
+    .container{
+        height: auto;
+        align-items: center;
+        position: absolute;
+        top: 80px;
+        display: flex;
+        left: 60px;
+        justify-content: center;
+
+        .img{
+            margin: 5px 35px;
+            width: 70px;
+        }
+        figcaption{
+            font-size: 14px;
+            text-align: center;
+            cursor: pointer;
+        }
+        figcaption:hover{
+            color: #2874f0;
+        }
+    }
+}
